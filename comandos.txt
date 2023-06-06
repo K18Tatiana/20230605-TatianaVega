@@ -1,0 +1,23 @@
+271  git init
+272  git branch -M main
+273  git remote add origin https://github.com/K18Tatiana/20230605-TatianaVega.git
+274  git remote -v
+275  touch comandos.txt main.js index.html
+276  git add .
+277  git commit -m "commit 01 de TatianaVega"
+278  git log
+279  git push origin main
+280  git checkout -b "feature"
+281  mkdir Hardware Software SeguridadInformatica
+282  touch Hardware/resumen.txt
+283  cp Hardware/resumen.txt Software/resumen.txt
+284  cp Hardware/resumen.txt Softwar/resumen.tx
+285  cp Hardware/resumen.txt SeguridadInformatica/resumen.txt
+286  git add .
+287  git commit -m "commit 02 de TatianaVega"
+288  git log
+289  git push origin feature
+290  git checkout main
+291  mv main.js resumenHardware.txt
+292  mv index.html resumenSoftware.txt
+293  history
